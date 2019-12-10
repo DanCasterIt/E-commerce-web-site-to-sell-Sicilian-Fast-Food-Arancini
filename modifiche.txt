@@ -1,0 +1,30 @@
+<ul class="nav navbar-nav navbar-right">
+              <li><a class="active" href="index.php">Home</a>
+              </li>
+			  
+			  
+			  
+<ul class="nav navbar-nav navbar-right">
+			  <?php if ($_SESSION["admin"]) { ?>
+			  <li><a class="active" href="admin_page.php.php">Admin</a>
+              </li>
+			  <?php } ?>
+              <li><a href="index.php">Home</a>
+              </li>
+			  
+			  
+			  
+			  
+<ul class="wpb-mobile-menu">
+              <li><a class="active" href="index.php">Home</a>
+              </li>
+			  
+			  
+			  
+<ul class="wpb-mobile-menu">
+			  <?php if ($_SESSION["admin"]) { ?>
+			  <li><a class="active" href="admin_page.php.php">Admin</a>
+              </li>
+			  <?php } ?>
+              <li><a class="active" href="index.php">Home</a>
+              </li>
